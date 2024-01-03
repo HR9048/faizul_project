@@ -47,7 +47,7 @@ export const Login:React.FC<{}>=()=>{
             }}
             variant="contained"
              color='info'>login</Button>
-             <Link to='/project/register'>
+             <Link to='/register'>
              <Button>register</Button>
              </Link>
         </Grid>

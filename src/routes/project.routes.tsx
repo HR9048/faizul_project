@@ -2,6 +2,10 @@ import { Outlet } from "react-router-dom";
 import { Login } from "../pages/project/login/Login.page";
 import { Register } from "../pages/project/register/Register.page";
 import { Home } from "../pages/project/home/Home.page";
+import { Support } from "../pages/project/supportform/Support.page";
+
+
+
 
 export const allProjectRoutes={
     path:'/project',
@@ -18,6 +22,10 @@ export const allProjectRoutes={
         {
             path:'home',
             element:<Home/>
+        },
+        {
+            path:'supportform',
+            element:<Support/>
         }
     ]
 }

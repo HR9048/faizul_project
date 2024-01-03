@@ -1,28 +1,30 @@
 import { Box, Button, Grid, Paper } from "@mui/material"
 import { Link } from "react-router-dom"
+import { Home } from "./project/home/Home.page"
 
 export const Entrypoint:React.FC<{}>=()=>{
     return <>
-    <Box>
+    <Box sx={{ bgcolor: '#cfe8fc', height: '100vh' }} >
         <Paper elevation={3}  >
             
-<Grid
+<Grid                                          
   container
   direction="column"
   justifyContent="center"
   alignItems="center"
 >
-    <Link to="/lessons/lesssons">
+    {/* <Link to="/lessons/lesssons">
 <Button>lessons</Button></Link>
 <Link to='/project/login'>
-<Button>Projects</Button>
-</Link>
-
-<Link to='/contact/contact'>
+Home
+</Link> 
+ <Link to='/contact/contact'>
 <Button>Contact Form</Button>
-</Link>
-
-            
+</Link>  */}
+<Home/>
+<Link to='/support/supportform'>
+<Button>Support Form</Button>
+</Link>         
 </Grid>
 
             

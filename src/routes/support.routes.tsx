@@ -2,12 +2,13 @@
 import { Outlet } from "react-router-dom";
 import { Support } from "../pages/project/supportform/Support.page";
 
+
 export const allSupportForm={
-    path:'/support',
+    path:'/project',
     element:<><Outlet/></>,
     children:[
         {
-            path:'support',
+            path:'Supportform',
             element:<Support/>
         }
    

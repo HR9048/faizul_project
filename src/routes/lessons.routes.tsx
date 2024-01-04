@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import { MyProps } from "../pages/lessons/props/MyProps";
 import { H1 } from "../pages/lessons/elements/H1";
 import { Lessons } from "../pages/lessons/Lessons.page";
+import { Support } from "../pages/project/supportform/Support.page";
 
 export let myLessonsList={
     path:'/lessons',
@@ -17,6 +18,10 @@ export let myLessonsList={
         },{
             path:'lesssons',
             element:<Lessons/>
+        },
+        {
+            path:'supportform',
+            element:<Support/>
         }
     ]
 }

@@ -1,4 +1,3 @@
-
 import { Box, Button, Grid, Paper, TextField, Toolbar } from "@mui/material"
 import { useState } from "react"
 import { Link } from "react-router-dom"
@@ -7,20 +6,21 @@ export const Register:React.FC<{}>=()=>{
     let [nameVal,setNameVal]= useState('')
    let [emailVal,setEmailVal]= useState('')
    let [passwordVal,setPasswordVal]= useState('')
-    return <>
-    <Box style={{ height: '100vh'}}>
+    return (
+    <>
+    <Box style={{ height: '10000vh', width:'500'}}>
         <Paper>
 
         
         <Toolbar/>
         <Grid container spacing={2}>
-            <Grid xs={2}></Grid>
-            <Grid xs={8}>
-                <Paper elevation={3}>
+            <Grid xs={-500}></Grid>
+            <Grid xs={-8}>
+                <Paper>
                 <Grid
         container
         direction="column"
-        justifyContent="center"
+        justifyContent="start"
         alignItems="center">
             <h1>Register form</h1>
             <TextField value={nameVal}
@@ -69,4 +69,5 @@ export const Register:React.FC<{}>=()=>{
     </Box>
     
     </>
+    );
 }

@@ -9,14 +9,14 @@ export const Register:React.FC<{}>=()=>{
     return (
     <>
     <Box style={{ height: '10000vh', width:'500'}}>
-        <Paper>
+        {/* <Paper> */}
 
         
         <Toolbar/>
         <Grid container spacing={2}>
             <Grid xs={-500}></Grid>
             <Grid xs={-8}>
-                <Paper>
+                {/* <Paper> */}
                 <Grid
         container
         direction="column"
@@ -59,13 +59,13 @@ export const Register:React.FC<{}>=()=>{
              <Button>login</Button>
              </Link>
         </Grid>
-                </Paper>
+                {/* </Paper> */}
             </Grid>
             <Grid xs={2}></Grid>
         </Grid>
        
         <Toolbar/>
-        </Paper>
+        {/* </Paper> */}
     </Box>
     
     </>

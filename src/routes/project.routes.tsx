@@ -24,7 +24,7 @@ export const allProjectRoutes={
             element:<Home/>
         },
         {
-            path:'Supportform',
+            path:'supportform',
             element:<Support/>
         }
     ]

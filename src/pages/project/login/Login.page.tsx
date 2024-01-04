@@ -9,14 +9,14 @@ export const Login:React.FC<{}>=()=>{
    let navigate=useNavigate()
     return <>
     <Box style={{ height: '100vh'}}>
-        <Paper>
+        {/* <Paper> */}
 
         
         <Toolbar/>
         <Grid container spacing={2}>
             <Grid xs={2}></Grid>
             <Grid xs={8}>
-                <Paper elevation={3}>
+                {/* <Paper elevation={3}> */}
                 <Grid
         container
         direction="column"
@@ -49,13 +49,13 @@ export const Login:React.FC<{}>=()=>{
              color='info'>login</Button>
              
         </Grid>
-                </Paper>
+                {/* </Paper> */}
             </Grid>
             <Grid xs={2}></Grid>
         </Grid>
        
         <Toolbar/>
-        </Paper>
+        {/* </Paper> */}
     </Box>
     
     </>

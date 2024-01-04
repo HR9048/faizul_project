@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { Home } from "./project/home/Home.page"
 import { Login } from "./project/login/Login.page"
 import { Register } from "./project/register/Register.page"
-import { Support } from "./project/supportform/Support.page"
+
 
 export const Entrypoint:React.FC<{}>=()=>{
     return (
@@ -31,7 +31,8 @@ Home
  <Home/>
  <Link to='/Login/login'>Login
 </Link>
-<Link to='/Supportpage'>Supportfrom
+<Link to='/home/supportform'>
+    <button>Supportfrom</button>
 </Link>
 <Link to='/Register/register'>Register
 </Link>

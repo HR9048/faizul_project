@@ -19,9 +19,9 @@ export let myLessonsList={
             path:'lesssons',
             element:<Lessons/>
         },
-        {
-            path:'supportform',
-            element:<Support/>
-        }
+        // {
+        //     path:'supportform',
+        //     element:<Support/>
+        // }
     ]
 }

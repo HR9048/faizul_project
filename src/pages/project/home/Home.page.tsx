@@ -56,11 +56,12 @@ export const Home:React.FC<{}>=()=>{
     </div>
     <center>
     <div>
-      <Support/>
-      <Link to= './supportform/support.page'>
+     
+      <Link to= '/home/supportform'>
         <Button>Support form</Button>
       </Link>
     </div>
+    
     </center>
     
 

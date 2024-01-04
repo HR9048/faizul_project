@@ -4,11 +4,11 @@ import { Support } from "../pages/project/supportform/Support.page";
 
 
 export const allSupportForm={
-    path:'/project',
+    path:'/home',
     element:<><Outlet/></>,
     children:[
         {
-            path:'Supportform',
+            path:'supportform',
             element:<Support/>
         }
    

@@ -3,7 +3,6 @@ import { Button, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 
-
 export const Support: React.FC = () => {
 return (
   <>

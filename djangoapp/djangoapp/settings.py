@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-y6d^i8t!k(!5^vpeb-1kz-j)ep*a_fe=)seru3eq)=9%u5zt+!'
+SECRET_KEY = 'django-insecure-+y+67s$6id)z1gb$(3eysa@f+sxff8a(14z%yvq)w9svzp&19b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -74,12 +74,21 @@ WSGI_APPLICATION = 'djangoapp.wsgi.application'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
+     'default': {
+         'ENGINE': 'django.db.backends.sqlite3',
+         'NAME': BASE_DIR / 'db.sqlite3',
+     }
+ }
+# DATABASES = {
+#     'default':{
+#         'ENGINE': 'django.db.backends.mysql', 
+#         'NAME': 'DB_NAME',
+#         'USER': 'DB_ROOT',
+#         'PASSWORD': '',
+#         'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
+#         'PORT':'3306',
+#         }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
